@@ -16,7 +16,7 @@ body {
   padding: 0;
   background: $body-background url("../assets/bkg.png") 0 0;
   color: $body-foreground;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.5;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
 }
@@ -65,7 +65,7 @@ header {
 }
 
 header h1 {
-  font-size: 24px;
+  font-size: 40px;
   line-height: 1.5;
   margin: 0;
   text-align: center;
@@ -80,7 +80,7 @@ header h1 {
 }
 
 header h2 {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 300;
   color: #666;
 }
@@ -93,7 +93,12 @@ header h2 {
   -webkit-font-smoothing: antialiased;
 }
 section img {
-  max-width: 100%
+  
+  border: 1px dashed rgba(181, 232, 83, 1);
+  padding: 8px;
+  border-radius: 3px;
+  width: 30%;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -106,12 +111,19 @@ h1, h2, h3, h4, h5, h6 {
                0 0 10px rgba(181, 232, 83, 0.1);
 }
 
+.postimg {
+
+  width: 50%;
+  margin-left: 25%;
+  
+}
+
 #main_content h1 {
   font-size: 30px;
 }
 
 #main_content h2 {
-  font-size: 24px;
+  font-size: 20px;
 }
 
 #main_content h3 {
@@ -235,8 +247,8 @@ hr {
 */
 
 a {
-  color: #63c0f5;
-  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+  color: $conifer;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 1);
 }
 
 a:active, a:focus {
